@@ -472,7 +472,7 @@ app_ui = ui.page_fluid(
     ui.hr(),
     ui.h3("Route Statistics"), # Heading for statistics section
 
-    ui.row( # Create a row for stat boxes
+    ui.row( # Create a row for stat box
         ui.column(3,
                   ui.div(
                       ui.p("Total Distance", class_="stat-label"),
